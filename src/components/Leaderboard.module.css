@@ -1,0 +1,59 @@
+/* Leaderboard.module.css */
+.userItem {
+    border-bottom: 1px solid #ddd; /* Add border between rows */
+}
+
+.profileImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #ecf0f1;
+    object-fit: cover;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+td:first-child {
+    width: 100px; /* Adjust width of first column for profile image */
+}
+
+td:nth-child(2) {
+    width: 200px; /* Adjust width of second column for name */
+}
+
+td:nth-child(3) {
+    width: 100px; /* Adjust width of third column for XP */
+}
+
+/* Leaderboard.module.css */
+.leaderboardTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.leaderboardTable th,
+.leaderboardTable td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.leaderboardTable th {
+    background-color: #000000;
+    font-weight: bold;
+}
+
+.leaderboardTable img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
